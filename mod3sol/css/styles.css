@@ -1,0 +1,76 @@
+body{
+	background-color: #61122f;
+	color: #fff;
+	font-family: 'oxygen',sans-serif;
+	font-size: 16px;
+
+
+}
+#nav-header{
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+
+}
+#logo-img{
+	background: url("../images/logo-img.png") no-repeat;
+	width: 100px;
+	height: 150px;
+	margin: 10px; 
+}
+
+.navbar-brand{
+	padding-top: 25px;
+}
+
+.navbar-brand h1{
+	font-family: 'Lora',serif;
+	color: #557c3e;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 10px;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand p{
+	font-style: italic;
+	color: #941C59;
+	margin-top: 15px;
+	font-size: 1.5em;
+	font-family: "Tangerine", serif;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+#nav-list{
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+#nav-list a{
+	color: #941C59;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+
+#nav-list a span {
+	font-size: 1.8em;
+}
+
+#phone {
+	margin-top: 5px;
+}
+
+#phone a 
+{
+	text-aign:right;
+	padding-bottom:0;
+}
