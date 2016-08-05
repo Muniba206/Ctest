@@ -4,7 +4,6 @@ body{
 	font-family: 'oxygen',sans-serif;
 	font-size: 16px;
 
-
 }
 #nav-header{
 	background-color: #f6b319;
@@ -15,7 +14,7 @@ body{
 #logo-img{
 	background: url("../images/logo-img.png") no-repeat;
 	width: 100px;
-	height: 150px;
+	height: 120px;
 	margin: 10px; 
 }
 
@@ -73,4 +72,126 @@ body{
 {
 	text-aign:right;
 	padding-bottom:0;
+}
+#phone div {
+	color: #557c3e;
+	text-align: right;
+	padding: 15px;
+}
+.navbar-header button.navbar-toggle, navbar-header .iconbar {
+	border:1px solid #61122f;
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -15px;
+}
+
+
+/*HEADER ENDS HERE*/
+
+
+h3{
+	color: #f6b319;
+	text-align: center;
+	font-family: 'lora', serif;
+	font-weight: bold;
+	font-size: 1.8em;
+	text-transform: uppercase;
+}
+
+.row{
+	width=100%;
+}
+
+  section {
+  border: 1px solid black;
+  background-color: #f6b319;
+  width: 100%;
+  height: 1000px;
+  font-family: Helvetica;
+  margin: 5px;
+  color: black;
+  position: relative;
+  overflow: auto;
+}
+/***********************For LARGE DEVICES only*****************/
+
+@media (min-width: 1200px)
+{
+
+}
+
+/***********************For MEDIUM DEVICES only ***************/
+
+@media (min-width: 992px) and (max-width: 1199px)
+{
+#logo-img{
+	background: url(../images/logo-img.png);
+	width: 75px;
+	height: 80px;
+	margin: 5px 5px 5px 0;
+}
+}
+
+/****************For SMALL DEVICES only *********************/
+
+@media (min-width: 991px) and (max-width: 768px)
+{
+/*.navbar-brand h1{
+	padding-top: 0;
+	font-size: 3VW;
+}
+
+.navbar-brand p{
+	text-transform: uppercase;
+	margin-top:5px;
+	font-size: 0.6em;
+	font-weight: bold;
+}
+#nav-list{
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+#nav-list a{
+	color: #941C59;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+
+#nav-list a span {
+	font-size: 1.2em;
+}*/
+}
+
+/******************** For EXTRA SMALL DEVICES only **************/
+
+@media (max-width: 767px)
+{
+.navbar-brand
+{
+	padding-top: 10px;
+	height: 70px;
+}
+.navbar-brand h1{
+	padding-top: 10px;
+	font-size: 4VW;
+}
+.navbar-brand p{
+	/*text-transform: uppercase;*/
+	margin-top:12px;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+#collapseable-nav a{
+	font-size: 1.2em;
+}
+#collapseable-nav a span{
+	font-size: 1em;
+	margin-right: 5px;
+}
+
 }
