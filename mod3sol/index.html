@@ -13,6 +13,8 @@
     <![endif]-->
 
     <title>Module 3 Solution Muniba</title>
+    <link rel="stylesheet" href="js/jquery-1.11.3.min.js">
+    <link rel="stylesheet" href="js/bootstrap.min.js">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
@@ -21,13 +23,11 @@
 <body>
 
   <header>
-  	<nav id="nav-header" class="navbar navbar-default">
-  	<div class="container"></div>
+  	<nav id="nav-header" class="navbar navbar-default navbar-fixed-top">
+  	<div class="container">
   	<div class="navbar-header">
   	<a href="index.html" class="pull-left visible-md visible-lg">
-  	<div id="logo-img" alt="Logo Image">
-  		
-  	</div>
+  	<div id="logo-img" alt="Logo Image"></div>
   	</a>
   	<div class="navbar-brand">
   	<a href="index.html"><h1>Health & Beauty206</h1></a>
@@ -39,30 +39,35 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
   		
   	</button>
   	</div>
            <div id="collapsable-nav" class="collapse navbar-collapse">
            <ul id="nav-list" class="nav navbar-nav navbar-right">
             <li>
-              <a href="menu-categories.html">
+              <a data-toggle="collapse" data-target=".navbar-collapse" href="index.html">
                 <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Home</a>
+               <hr class="visible-xs"\>
             </li>
             <li>
-              <a href="#">
+              <a data-toggle="collapse" data-target=".navbar-collapse" href="#about">
                 <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+               <hr class="visible-xs"\>
             </li>
             <li>
-              <a href="#">
+              <a data-toggle="collapse" data-target=".navbar-collapse" href="#hairstyles">
                 <span class="glyphicon glyphicon-scissors"></span><br class="hidden-xs"> Hair Styling</a>
+                <hr class="visible-xs"\>
             </li>
             <li>
-              <a href="#">
+              <a data-toggle="collapse" data-target=".navbar-collapse" href="#location">
                 <span class="glyphicon glyphicon-map-marker"></span><br class="hidden-xs"> Location</a>
+                 <hr class="visible-xs"\>
             </li>
             <li id="phone" class="hidden-xs">
-              <a href="tel:410-602-5008">
-                <span>410-602-5008</span></a><div>* Book Appointment </div>
+              <a href="tel:60-13-4756">
+                <span>60-13-4756</span></a><div>* Book Appointment </div>
             </li>
           </ul><!-- #nav-list -->
         </div><!-- .collapse .navbar-collapse -->
@@ -70,15 +75,55 @@
     </nav><!-- #header-nav -->
   </header>
 
-  <p><h3>Our Services</h3></p>
-
-  <div class="container">
+  <div id="main-content" class="container">
+  <section>
+  <h3 class="text-center">Our Services</h3>
+   </section>
   <div class="row">
-  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
-  <section></section>
+  <div class="col-md-4 col-sm-12 col-xs-12"> 
+  <div id="about">
+  <h2 class="text-center"> About Us</h2>
+  <p>Lorem ipsum dolor sit amet, erant homero albucius ei usu, ea mea quando iuvaret, vel cu audiam dissentiet. Ea pri numquam theophrastus. Usu an placerat abhorreant, dolorem consequat vim id. Cum dolores adolescens no, ea hinc theophrastus vix. Ius id ullum elaboraret, cum paulo deseruisse et. Sanctus reformidans quo ex, ei eam aliquip maluisset, ad vitae consectetuer consequuntur vis.
+
+Ex nemore dolorem minimum pro, ut qui liber malorum. Latine detracto forensibus no vix, nec delenit abhorreant scribentur ex. Est duis habeo an, ullum copiosae antiopam pri id, vim debet oratio utinam ut. His ut accusam voluptatibus, te vitae dicunt volumus vis. Id per omnium accumsan efficiendi.
+
+Tale viris et sea, causae omittam efficiendi mea ea. Ut eos modo alterum civibus, per ea debet legere aliquip, eum modo apeirian laboramus ne. Eos tale omittantur eu. Ut mel vero quaestio constituto. Eu eum nibh feugiat repudiandae, an noster invenire pro, quo at ipsum perfecto.
+
+Recusabo moderatius an usu, eos in erat quaeque, mei semper aperiri labores ut. No reque mentitum iudicabit vix, no has tacimates pericula. Usu praesent consequuntur et. Ut eum solum ornatus dissentiet, ut aeque graeci his. Euismod impedit detraxit cu duo.
+</p>
+<a class="visible-xs" href="#">Back To Top</a>
   </div>
+  </div> <!-- About us Column Ends Here -->
+  <div class="col-md-4 col-sm-12 col-xs-12">
+  <div id="hairstyles">
+    <h2 class="text-center">Hair Styles</h2>
+    <p>Tale viris et sea, causae omittam efficiendi mea ea. Ut eos modo alterum civibus, per ea debet legere aliquip, eum modo apeirian laboramus ne. Eos tale omittantur eu. Ut mel vero quaestio constituto. Eu eum nibh feugiat repudiandae, an noster invenire pro, quo at ipsum perfecto.
+
+Recusabo moderatius an usu, eos in erat quaeque, mei semper aperiri labores ut. No reque mentitum iudicabit vix, no has tacimates pericula. Usu praesent consequuntur et. Ut eum solum ornatus dissentiet, ut aeque graeci his. Euismod impedit detraxit cu duo.
+
+Ei quaeque vivendo eum. Brute ipsum graece sea ut, vivendo mentitum ea duo, ei his simul omnes recusabo. Te reque scripserit has. Duo minimum lobortis cu. Cum ea etiam theophrastus, facer corrumpit incorrupte nam ei. Nonumes ceteros sea ei. Cum rationibus neglegentur eu, eripuit feugait an vim.
+</p>
+<a class="visible-xs" href="#">Back To Top</a>
   </div>
+  </div> <!-- Hair Stykes Column Ends Here -->
+
+  <div class="col-md-4 col-sm-12 col-xs-12">
+  <div id="location">
+    <h2 class="text-center">Location</h2>
+    <p>Ex nemore dolorem minimum pro, ut qui liber malorum. Latine detracto forensibus no vix, nec delenit abhorreant scribentur ex. Est duis habeo an, ullum copiosae antiopam pri id, vim debet oratio utinam ut. His ut accusam voluptatibus, te vitae dicunt volumus vis. Id per omnium accumsan efficiendi.
+
+Tale viris et sea, causae omittam efficiendi mea ea. Ut eos modo alterum civibus, per ea debet legere aliquip, eum modo apeirian laboramus ne. Eos tale omittantur eu. Ut mel vero quaestio constituto. Eu eum nibh feugiat repudiandae, an noster invenire pro, quo at ipsum perfecto.
+
+Recusabo moderatius an usu, eos in erat quaeque, mei semper aperiri labores ut. No reque mentitum iudicabit vix, no has tacimates pericula. Usu praesent consequuntur et. Ut eum solum ornatus dissentiet, ut aeque graeci his. Euismod impedit detraxit cu duo.
+</p>
+  <a class="visible-xs" href="#">Back To Top</a>
   </div>
+    
+  </div>
+  
+  </div> <! Row Ends here -->
+ 
+  </div> <!-- Main content Container Ends Here -->
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
